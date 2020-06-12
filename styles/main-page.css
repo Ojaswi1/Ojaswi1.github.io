@@ -42,12 +42,12 @@ body {
 }
 
 .content .logo {
-    height: 180px;
-    width: 180px;
+    height: 280px;
+    width: 280px;
 }
 
 .content .title {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     margin-top: 1rem;
     font-weight: normal;
 }
@@ -124,23 +124,94 @@ div.sticky-navbar {
 }
 
 
-/* Sunflower Parallax */
+/* Parallax */
 
-.parallax {
-    background-image: url("../assets/aurora.jpg");
-    min-height: 200px;
+.parallax-edu {
+    background-image: url("../assets/edu banner.jpg");
+    min-height: 400px;
     /* parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: 0.65;
+    opacity: 0.6;
 }
 
-.parallax p {
-    font-weight: lighter;
-    color: #f4f4f4;
+.parallax-edu h1 {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+/* parallax experience */
+
+.parallax-exp {
+    background-image: url("../assets/work.png");
+    min-height: 400px;
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+}
+
+.parallax-exp h1 {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+/* parallax project */
+
+.parallax-proj {
+    background-image: url("../assets/proj banner.jpg");
+    min-height: 400px;
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+}
+
+.parallax-proj h1 {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+/* parallax about */
+
+.parallax-about {
+    background-image: url("../assets/ojaswi.JPG");
+    min-height: 400px;
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+}
+
+.parallax-about h1 {
+    color: white;
     position: absolute;
     left: 0;
     top: 50%;
